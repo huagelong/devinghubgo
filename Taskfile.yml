@@ -31,7 +31,7 @@ tasks:
   init-resources-themes:
     cmds:
       - cd ./theme/germ && npx tailwindcss -i ./css/style.css -o ../../main/tmp/themes/germ/public/style.css --minify
-      - rm -r -f ./main/resources/themes
+      - rm -r -f ./main/resources/themes/germ/public/style.css
       - cp -r ./main/tmp/themes ./main/resources/themes
 
 
